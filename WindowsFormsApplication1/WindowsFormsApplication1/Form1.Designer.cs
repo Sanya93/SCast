@@ -35,7 +35,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(119, 53);
+            this.button1.Location = new System.Drawing.Point(91, 46);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 23);
             this.button1.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(329, 53);
+            this.button2.Location = new System.Drawing.Point(301, 46);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(166, 23);
             this.button2.TabIndex = 1;
@@ -56,7 +56,7 @@
             // button3
             // 
             this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(551, 53);
+            this.button3.Location = new System.Drawing.Point(523, 46);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(142, 23);
             this.button3.TabIndex = 2;
@@ -68,11 +68,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 135);
+            this.ClientSize = new System.Drawing.Size(762, 94);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Location = new System.Drawing.Point(300, 300);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Форма выбора режима, она же управляемый сервер( отправить экран, принять и выполн" +
                 "ить клавиатуру, мышь)";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
